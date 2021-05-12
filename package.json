@@ -1,0 +1,29 @@
+{
+  "name": "darkdragon532.github.io",
+  "version": "1.0.0",
+  "description": "My website",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DARKDRAGON532/darkdragon532.github.io.git"
+  },
+  "author": "DARKDRAGON532",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/DARKDRAGON532/darkdragon532.github.io/issues"
+  },
+  "homepage": "https://github.com/DARKDRAGON532/darkdragon532.github.io#readme",
+  "devDependencies": {
+    "css-loader": "^5.2.4",
+    "extract-loader": "^5.1.0",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.37.0",
+    "webpack-cli": "^4.7.0",
+    "winbox": "^0.1.92"
+  }
+}

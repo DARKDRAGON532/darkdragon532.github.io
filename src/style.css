@@ -86,6 +86,14 @@ nav ul li {
     animation: 1s blink step-end infinite;
 }
 
+.text {
+    color: var(--text-colour);
+    font-size: 69px;
+    letter-spacing: -4px;
+    margin-bottom: 21px;
+    margin-left: 8px;
+}
+
 @keyframes blink {
     from, to {
         color: transparent;
